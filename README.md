@@ -2,6 +2,27 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+## Angular 5 Kick Start
+1.	Install Node JS
+2.	Check node -v in command line
+3.	Installing Angular CLI: npm install @angular/cli -g
+4.	Once installed check ng -v
+5.	Create a new Project : ng new <project-name> --style=scss --routing
+6.	Cd <project-name>
+7.	Create a new Component: ng generate component <component-name>
+a.	Short hand command -> ng g c <component-name>
+8.	Create a new Service: ng generate service <service-name>  (ng g s <service-name>)
+a.	Services are mainly to share common code b/w components
+b.	Making http calls
+9.	Build & Deployment:
+a.	Normal Build: ng build
+b.	Production Build : ng build --prod (Prod build size is less and Fast comparatively.)
+c.	Deploying to domain: ng build –prod –base-href=”myURL”
+d.	Deploying through Git Hub pages:
+Npm install -g angular-cli-ghpages
+
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
